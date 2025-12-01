@@ -1,0 +1,154 @@
+body{
+
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+}
+
+
+
+
+
+.musicImage{
+
+    height: 350px;
+    width: 500px;
+    object-fit: cover;
+    border-radius: 3px;
+}
+
+
+.createlang{
+
+    height: 100vh;
+}
+
+.foteer{
+    margin-top: 100px;
+}
+
+
+@media screen and (max-width:1400px) {
+
+    .menuCard{
+
+        display: none;
+    }
+
+    
+    
+}
+@media screen and (max-width:1200px) {
+
+        .menuCard{
+
+        display: none;
+    }
+
+
+    
+}
+@media screen and (max-width:992px) {
+
+    .menuCard{
+
+        display: none;
+    }
+    
+}
+@media screen and (max-width:768px) {
+
+        .menuCard{
+
+        display: none;
+    }
+
+
+    
+}
+@media screen and (max-width:576px) {
+
+    nav{
+        display: none;
+    }
+
+        .menuCard{
+
+        display: block;
+    }
+
+   section{
+    display: flex;
+    flex-direction: column;
+   }
+
+   .imagesMusic{
+    display: none;
+   }
+
+   .createanotherd{
+
+    margin-top: 80px;
+   }
+
+   .carusoed{
+
+     margin-top: 40px;
+
+   }
+
+   .createlang{
+
+margin-top: 140px; 
+ }
+
+
+.createlanged{
+
+    display: flex;
+    flex-direction: column;
+}
+
+.createlanged{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+
+.cardImaged{
+
+    margin-top: 30px;
+
+}
+
+
+.typedSongd{
+
+    margin-top: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footered{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+    
+}
+
+
+
+
+
+   
+

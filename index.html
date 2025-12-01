@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Hub</title>
+
+    <link
+      rel="stylesheet"
+      href="./assets/Css/bootstrap/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./assets/Css/style.css" />
+  </head>
+  <body>
+    <header class="position-fixed top-0 bg-white" style="width: 100%">
+      <div
+        class="container-fluid d-flex justify-content-between align-items-center"
+      >
+        <img
+          src="./Images/music.png"
+          alt="musice"
+          style="height: 50px; width: 50px"
+        />
+        <nav>
+          <ul class="d-flex list-unstyled gap-5 fs-5">
+            <li>Home</li>
+            <a href="#createlangs"><li class="languages">Language</li></a>
+            <a href="#typesofSong"
+              ><li class="musiclist text-decoration-none">Type of Song</li></a
+            >
+
+            <a href="#supported">
+              <li class="support">Support</li>
+            </a>
+          </ul>
+        </nav>
+
+        <img
+          src="./Images/menu.png"
+          alt="menuCard"
+          style="height: 40px; width: 40px"
+          class="menuCard"
+        />
+      </div>
+    </header>
+
+    <main class="container">
+      <section
+        class="d-flex justify-content-between align-items-center"
+        style="height: 100vh"
+      >
+        <div class="createanotherd">
+          <h2>Enjoy Songs Online and Offline!</h2>
+
+          <p class="mx-auto lead" style="max-width: 50ch">
+            Welcome to Music World. After installing this app, you can easily
+            listen to songs. With internet, you can explore all types of music.
+            After downloading, you can also listen without internet while
+            traveling in bike, car, bus, or flight. This is the main benefit of
+            using this app
+          </p>
+
+          <div class="d-flex gap-3 mt-3">
+            <button type="button" class="btn btn-primary">Download</button>
+            <button type="button" class="btn btn-warning">
+              How to Install?
+            </button>
+            <img
+              src="./Images/music-notes (1).png"
+              alt="musical"
+              style="height: 40px; width: 40px"
+            />
+          </div>
+        </div>
+
+        <div class="d-flex align-items-center justify-content-between">
+          <img src="./Images/music (2).png" alt="musiec" style="height: 40px" class="imagesMusic"/>
+        </div>
+
+        <div id="carouselExample" class="carousel slide carusoed" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./Images/woman-enjoying-music.jpg"
+                alt="music1"
+                class="musicImage"
+              />
+            </div>
+
+            <div class="carousel-item">
+              <img
+                src="./Images/young-man-listening-music-red.jpg"
+                alt="music2"
+                class="musicImage"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./Images/music image.avif"
+                alt="music3"
+                class="musicImage"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
+      <!-- Language -->
+
+      <div class="createlang" id="createlangs">
+        <div class="d-flex flex-row justify-content-between createlanged">
+          <h2>Choose Your Own Language</h2>
+          <div class="card cardImaged" style="width: 18rem">
+            <img
+              src="./Images/lohri-celebration-india (1).jpg"
+              class="card-img-top cardImaged"
+              alt="dance3"
+            />
+
+            <div class="card-body">
+              <h5 class="card-title">Tamil Songs</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card’s content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card cardImaged" style="width: 18rem">
+            <img
+              src="./Images/realistic-people-celebrating-gudi-padwa.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+
+            <div class="card-body">
+              <h5 class="card-title">Hindi songs</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card’s content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card cardImaged" style="width: 18rem">
+            <img
+              src="./Images/people-taking-part-dance-therapy-class.jpg"
+              class="card-img-top"
+              alt="dancegroup"
+            />
+            <div class="card-body">
+              <h5 class="card-title">English Songs</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card’s content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- typesof Songs -->
+
+      <div id="typesofSong" class="typedSongd">
+        <h2>Types Of Song</h2>
+        <video
+          src="./Images/854429-hd_1920_1080_24fps.mp4"
+          style="width: 100%; height: 30%"
+          controls
+        ></video>
+      </div>
+    </main>
+
+    <footer id="supported" class="foteer">
+      <div class="d-flex justify-content-between align-items-center footered">
+        <div>
+          <h3>Address information</h3>
+
+          <p class="lead">CyberDude Networks Pvt.ltd</p>
+
+          <p class="lead">#32, Second St, Ramalingapuram,</p>
+          <p class="lead"> Kamaraja Nagar,</p>
+          <p class="lead">Avadi, Chennai - 71.</p>
+          
+          <p class="lead">+91 9952913027, 8939738801</p>
+        </div>
+
+        <div class="d-flex align-items-center justify-content-between gap-3">
+          <p class="lead">Social Media Link</p>
+          <img
+            src="./Images/instagram.png"
+            alt="instagram"
+            style="height: 40px; width: 40px; object-fit: cover"
+          />
+          <img
+            src="./Images/facebook.png"
+            alt="facebook"
+            style="height: 40px; width: 40px; object-fit: cover"
+          />
+          <img
+            src="./Images/youtube.png"
+            alt="youtube"
+            style="height: 40px; width: 40px; object-fit: cover"
+          />
+          <img
+            src="./Images/social (1).png"
+            alt="social"
+            style="height: 40px; width: 40px; object-fit: cover"
+          />
+        </div>
+      </div>
+    </footer>
+
+    <script src="./assets/Css/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./assets/Css/bootstrap/js/jquery.min.js"></script>
+  </body>
+</html>
